@@ -5,6 +5,7 @@
     font-family: 'Roboto', sans-serif;
 
 }
+$headerColor: rgb(255, 133, 111);
 .li-none{
     list-style: none;
 }
@@ -15,7 +16,7 @@
     display: flex;
 }
 header{
-    background-color: rgb(255, 133, 111);
+    background-color: $headerColor;
     width: 100%;
     padding: 0.15rem 0.33rem;
     display: flex;
@@ -204,5 +205,30 @@ footer{
     color: white;
      a{
         color: white;
+    }
+}
+
+.how-works {
+    width: 100%; 
+    h3{ 
+        width: fit-content;
+        margin: 0.33rem auto;
+        color: $headerColor;
+    }
+    .cards-container{
+        width: 90%;
+        margin: 0 auto;
+        .card{
+            margin: 0.5rem 0;
+             h3{
+                color: black
+            }
+            p{
+                text-align: center;
+            }
+            .card-img{
+                text-align: center;
+            }
+        }
     }
 }
