@@ -278,22 +278,35 @@ footer{
     .search-results-container{
         display: flex;
         flex-wrap: wrap;
+        height: fit-content;
         &:last-child{
             margin-bottom: 4rem;
         }
+        a{
+            text-decoration: none;
+            color: black;
+            margin: 0 auto;
+        }
         .result{
-            margin: 3rem auto;
-            background-color: #f42;
+            margin: 1rem auto;
             width: 80%;
-            max-width: 350px;
-            height: 200px;
+            max-width: 400px;
+            height: auto;
+            @media (min-width:768px) {
+                max-width: 350px;
+            }
+            @media (min-width:1024px) {
+                max-width: 400px;
+            }
             .result-img-container{
                 margin-bottom: 0.67rem;
                 height: 100%;
                 width: 100%; 
+                
                 img{
                     height: 100%;
                     width: 100%;  
+                    object-fit: contain;
                 }
             }
             .result-info{ 
