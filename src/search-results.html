@@ -34,7 +34,51 @@
     </header>
 
     <main>
-        
+        <div class="search-filter">
+            <form action="./search-results.html">
+                <div class="search-field">
+                    <label for="cname">Car Name</label>
+                    <input type="text" id="cname">
+                </div>
+                <div class="search-field">
+                    <label for="brand">Brand</label>
+                    <select name="brand" id="brand">
+                        <option value="Subaru">Subaru</option>
+                        <option value="Subaru">Ford</option>
+                        <option value="Subaru">Tesla</option>
+                        <option value="Subaru">Jeep</option>
+                        <option value="Subaru">Chevrolet</option>
+                    </select>
+                </div>
+                <div class="search-field">
+                    <label for="price">Price range</label>
+                    <select name="price" id="price">
+                        <option value="Subaru">$5000+</option>
+                        <option value="Subaru">$10000+</option>
+                        <option value="Subaru">$20000+</option>
+                        <option value="Subaru">$30000+</option>
+                        <option value="Subaru">$40000+</option>
+                    </select>
+                </div>
+                <button type="submit" class="find">Find</button>
+                <button class="clear">Clear Filters</button>
+            </form>
+        </div>
+        <section class="search-results">
+            <h4>Found 4 cars</h4>
+            <div class="search-results-container">
+                <div class="result-1">
+                    <div class="result-img-container">
+                        <img src="" alt="">
+                    </div>
+                    <div class="result-info">
+                        <h5>Subaru Gm1</h5>
+                        <p class="price"><i class="fas fa-tags"></i>7500$</p>
+                        <p class="desc"><i class="fas fa-cogs"></i>1000km</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <div class="nav-footer">
