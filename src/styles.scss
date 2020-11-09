@@ -190,13 +190,19 @@ footer{
             }
         }
     }
-    .small-footer{
-        margin: 0.33rem 0;
-        display: flex;
-        justify-content: space-between;
-    }
+
         
  @media (min-width:768px) {
      padding: 1rem;
  }
+}
+.small-footer{
+    padding: 0.5rem;
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+     a{
+        color: white;
+    }
 }
