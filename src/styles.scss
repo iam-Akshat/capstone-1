@@ -232,3 +232,58 @@ footer{
         }
     }
 }
+.search-filter{
+    margin: 1rem 0;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding: 3rem;
+    background-color: #e2e2e2;
+    form{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+        .search-field{
+            display: flex;
+            flex-direction: column;
+            padding: 0.3rem 0.67rem;
+        }
+        .find,.clear{
+            border: none;
+           padding: 0.3rem 0.8rem;
+           height: 32px;
+           color: white;
+           margin-top: 0.4rem ;   
+        }
+        .find{
+            background-color: rgb(201, 90, 50);
+        }
+        .clear{
+            background-color: rgb(111, 111, 192);
+        }
+    }
+    
+}
+.search-results{
+    display: grid;
+    justify-content: center;
+    align-content: center; 
+        h3{
+        color: $headerColor;
+        width: fit-content;
+        margin: 0 auto;
+    }
+    .search-results-container{
+        display: flex;
+        flex-wrap: wrap;
+        .result{
+            margin: 0.33rem auto;
+            background-color: #f42;
+            width: 80%;
+            height: 200px;
+        }
+    }
+
+}
