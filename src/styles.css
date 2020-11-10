@@ -272,7 +272,6 @@ header {
 }
 
 header .logo {
-  width: 100vw;
   margin: 0 auto;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
