@@ -31,7 +31,7 @@ footer a {
 
 .small-footer {
   padding: 0.5rem;
-  background-color: rgb(31,31,31);
+  background-color: rgb(31, 31, 31);
   display: flex;
   justify-content: space-between;
   color: white;
@@ -75,11 +75,11 @@ footer a {
     }
 
     .find {
-      background-color: rgb(69,126,180);
+      background-color: rgb(69, 126, 180);
     }
 
     .clear {
-      background-color: rgb(229,171,91);
+      background-color: rgb(229, 171, 91);
     }
   }
 }
@@ -293,11 +293,11 @@ header {
         width: 100%;
         background-color: $headerColor;
         color: white;
-        @media (min-width:768px) {
+
+        @media (min-width: 768px) {
           flex-basis: 33%;
           margin-bottom: 0.3rem;
           align-self: flex-end;
-          
         }
       }
     }
