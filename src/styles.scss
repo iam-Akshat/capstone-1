@@ -179,6 +179,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+
   @media (min-width: 768px) {
     flex-wrap: nowrap;
   }
