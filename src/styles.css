@@ -37,7 +37,7 @@ footer a {
 
 .small-footer {
   padding: 0.5rem;
-  background-color: #363636;
+  background-color: #1f1f1f;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -96,15 +96,17 @@ footer a {
   padding: 0.3rem 0.8rem;
   height: 32px;
   color: white;
-  margin-top: 0.4rem;
+  border-radius: 4px;
+  margin: 0.2rem 0.1rem;
+  margin-top: 1rem;
 }
 
 .search-filter form .find {
-  background-color: #c95a32;
+  background-color: #457eb4;
 }
 
 .search-filter form .clear {
-  background-color: #6f6fc0;
+  background-color: #e5ab5b;
 }
 
 .orange-link {
@@ -405,7 +407,8 @@ header .not-mob {
   text-align: center;
   border: none;
   width: 100%;
-  background-color: #fd6d53;
+  background-color: #d4574a;
+  color: white;
 }
 
 @media (min-width: 768px) {

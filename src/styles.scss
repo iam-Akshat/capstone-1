@@ -31,7 +31,7 @@ footer a {
 
 .small-footer {
   padding: 0.5rem;
-  background-color: rgb(54, 54, 54);
+  background-color: rgb(31,31,31);
   display: flex;
   justify-content: space-between;
   color: white;
@@ -68,15 +68,17 @@ footer a {
       padding: 0.3rem 0.8rem;
       height: 32px;
       color: white;
-      margin-top: 0.4rem;
+      border-radius: 4px;
+      margin: 0.2rem 0.1rem;
+      margin-top: 1rem;
     }
 
     .find {
-      background-color: rgb(201, 90, 50);
+      background-color: rgb(69,126,180);
     }
 
     .clear {
-      background-color: rgb(111, 111, 192);
+      background-color: rgb(229,171,91);
     }
   }
 }
@@ -289,7 +291,8 @@ header {
         text-align: center;
         border: none;
         width: 100%;
-        background-color: rgb(253, 109, 83);
+        background-color: $headerColor;
+        color: white;
         @media (min-width:768px) {
           flex-basis: 33%;
           margin-bottom: 0.3rem;
