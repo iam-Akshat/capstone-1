@@ -515,8 +515,34 @@ header .not-mob {
   margin: 0 auto;
 }
 
+@media (min-width: 1024px) {
+  .how-works .cards-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 70%;
+    height: 450px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .how-works .cards-container .card {
   margin: 0.5rem 0;
+}
+
+@media (min-width: 1024px) {
+  .how-works .cards-container .card {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    max-width: 400px;
+  }
 }
 
 .how-works .cards-container .card h3 {
