@@ -177,7 +177,8 @@ header {
   padding: 0.15rem 0.33rem;
   display: flex;
   flex-wrap: wrap;
-
+  justify-content: center;
+  align-items: center;
   @media (min-width: 768px) {
     flex-wrap: nowrap;
   }
