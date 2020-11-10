@@ -140,7 +140,7 @@ footer {
     @media (min-width: 768px) {
       flex-direction: row;
       justify-content: space-between;
-      align-items: center;
+      align-items: flex-start;
     }
 
     .subscribe,
@@ -164,6 +164,7 @@ footer {
           background-color: rgb(114, 114, 114);
           color: white;
           font-weight: 500;
+          border: none;
         }
       }
     }
