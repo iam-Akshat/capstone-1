@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
-$headerColor: rgb(255, 133, 111);
+$headerColor: rgb(212,87,74);
 
 .li-none {
   list-style: none;
@@ -79,6 +79,9 @@ footer a {
       background-color: rgb(111, 111, 192);
     }
   }
+}
+.orange-link{
+  color: $headerColor;
 }
 
 footer {

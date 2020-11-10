@@ -107,6 +107,10 @@ footer a {
   background-color: #6f6fc0;
 }
 
+.orange-link {
+  color: #d4574a;
+}
+
 footer {
   padding: 0.5rem;
   background-color: #0e0d0d;
@@ -240,7 +244,7 @@ footer .other-info .subscribe form button {
 }
 
 header {
-  background-color: #ff856f;
+  background-color: #d4574a;
   width: 100%;
   padding: 0.15rem 0.33rem;
   display: -webkit-box;
@@ -420,7 +424,7 @@ header .not-mob {
 }
 
 .search-results h3 {
-  color: #ff856f;
+  color: #d4574a;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
@@ -507,7 +511,7 @@ header .not-mob {
   width: -moz-max-content;
   width: max-content;
   margin: 0.33rem auto;
-  color: #ff856f;
+  color: #d4574a;
 }
 
 .how-works .cards-container {
