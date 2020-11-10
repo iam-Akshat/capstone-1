@@ -612,6 +612,7 @@ header .not-mob {
 }
 
 .main-info .info .feature {
+  text-align: center;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   padding: 0.3rem 1rem;
