@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
-$headerColor: rgb(212,87,74);
+$headerColor: rgb(212, 87, 74);
 
 .li-none {
   list-style: none;
@@ -80,7 +80,8 @@ footer a {
     }
   }
 }
-.orange-link{
+
+.orange-link {
   color: $headerColor;
 }
 
@@ -270,6 +271,10 @@ header {
       padding: 1rem 0.25rem;
       background-color: rgba(255, 255, 255, 0.45);
 
+      @media (min-width: 768px) {
+        form { display: flex; }
+      }
+
       .search {
         input {
           padding: 0.25rem;
@@ -285,6 +290,12 @@ header {
         border: none;
         width: 100%;
         background-color: rgb(253, 109, 83);
+        @media (min-width:768px) {
+          flex-basis: 33%;
+          margin-bottom: 0.3rem;
+          align-self: flex-end;
+          
+        }
       }
     }
   }
