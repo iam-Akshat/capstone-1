@@ -1,0 +1,47 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# CarFax clone
+
+> Built for capstone project using HTML and SASS
+
+![iPad main Page](./app_ss/localhost_5500_src_index.html-iPad.png)
+![Mobile Search Results Page](./app_ss/mobile-search-results.png)
+![Desktop Result Page](./app_ss/localhost_5500_src_details_chevrolet-silverado.html-iPadPro)
+
+
+## Built With
+
+- HTML
+- Sass
+## Live Demo
+
+[Live Demo Link](https://livedemo.com)
+
+## Authors
+
+👤 **Akshat Sethi**
+
+- GitHub: [@iam-Akshat](https://github.com/iam-Akshat)
+- Twitter: [@akshatsethi](https://twitter.com/akshatsethi)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/akshat-sethi-786737ba/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
