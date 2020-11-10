@@ -49,6 +49,7 @@ footer a {
 
 .small-footer a {
   color: white;
+  padding: 0.2rem 0.3rem;
 }
 
 .search-filter {
