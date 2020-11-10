@@ -6,7 +6,7 @@
 
 ![iPad main Page](./app_ss/localhost_5500_src_index.html-iPad.png)
 ![Mobile Search Results Page](./app_ss/mobile-search-results.png)
-![Desktop Result Page](./app_ss/localhost_5500_src_details_chevrolet-silverado.html-iPadPro)
+![Desktop Result Page](./app_ss/localhost_5500_src_details_chevrolet-silverado.html-iPadPro.png)
 
 
 ## Built With
