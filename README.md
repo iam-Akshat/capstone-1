@@ -38,9 +38,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Design inspired from [PATASHULKE](https://www.behance.net/gallery/25563385/PatashuleKE)
 
 ## 📝 License
 
