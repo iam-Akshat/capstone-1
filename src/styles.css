@@ -680,12 +680,11 @@ header .not-mob {
   padding: 1.75rem 1rem;
   width: 100%;
   height: 350px;
-  max-width: 400px;
+  max-width: 800px;
 }
 
 @media (min-width: 768px) {
   .map-holder {
-    max-width: 500px;
     height: 400px;
   }
 }
