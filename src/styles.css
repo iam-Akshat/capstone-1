@@ -62,7 +62,11 @@ footer a {
   -ms-flex-line-pack: center;
       align-content: center;
   padding: 3rem;
-  background-color: #e2e2e2;
+  background-color: #eeeeee;
+}
+
+.search-filter h1 {
+  color: #959aa7;
 }
 
 .search-filter form {
