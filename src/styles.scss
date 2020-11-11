@@ -23,8 +23,9 @@ $headerColor: rgb(212, 87, 74);
   justify-content: center;
   align-content: center;
 }
-.car-heading{
-  margin: 0.75rem auto 0 auto;
+
+.car-heading {
+  margin: 1rem auto 0 auto;
 }
 
 footer a {
@@ -51,10 +52,12 @@ footer a {
   justify-content: center;
   align-content: center;
   padding: 3rem;
-  background-color:rgb(238,238,238);
-  h1{
-    color: rgb(149,154,167);
+  background-color: rgb(238, 238, 238);
+
+  h1 {
+    color: rgb(149, 154, 167);
   }
+
   form {
     display: flex;
     flex-wrap: wrap;
